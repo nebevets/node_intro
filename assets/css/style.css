@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #dedede;
+    padding: 12px 10px;
+    text-align: right;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    font-size: 1.4em;
+    padding: 8px;
+}
+
+.container {
+    min-height: calc(100vh - 80px);
+    margin: 0 auto;
+    padding-bottom: 80px;
+    position: relative;
+    width: 80vw;
+}
+
+.center {
+    text-align: center;
+}
+
+.greeting {
+    color: #808080;
+    text-align: right;
+}
+
+.logo > img {
+    width: 450px;
+}
+
+footer {
+    background-color: #dedede;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.large-link {
+    font-size: 1.5em;
+}
+
+.contact-img img {
+    width: 200px;
+}
